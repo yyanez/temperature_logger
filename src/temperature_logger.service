@@ -1,0 +1,8 @@
+[Unit]
+Description=Temperature Logger
+
+[Service]
+ExecStart=/usr/bin/temperature_logger
+
+[Install]
+WantedBy=default.target
